@@ -1,0 +1,23 @@
+body{
+	background-image: url("s.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#true{
+	margin-right: 5px;
+}
+
+#false{
+	margin-left: 5px;
+}
+
+.quiz{
+	background-color: #059649;
+	color:#f5f5f5;
+
+}
+
+ .quiz p{
+	font-size: 30px;
+}

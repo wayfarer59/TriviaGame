@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<!-- bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="jumbotron text-center" > 
+	<h1>Soccer Trivia </h1>
+	<p><a id="start" class= "text-center btn btn-primary btn-lg" href="#" role="button">Start Game</a></p>
+	<div id="display">   </div>
+
+<div id="main" class="main panel">
+    <div class="quiz">
+      <p class="question" ></p>
+      <p class="results"></p>
+      <p class="score"></p>
+      <p class="thanks">Thanks for playing!</p>
+      <div class="options">
+        <div class="col-md-5"></div>
+        <div class="choice btn-primary btn-lg col-md-1" id="true">True</div>
+        <!-- <div class="col-md-1" ></div> -->
+        <div class="choice btn-primary btn-lg col-md-1 " id="false">False</div>
+      	<div class="col-md-5" ></div>
+
+      </div>
+      <div class="col-md-4" ></div>
+      <div class="col-md-4 generate btn-warning btn-lg" id="generate">Next---></div>
+      <div class="col-md-4" ></div>
+    </div>
+  </div>
+</div>
+
+<!-- j-query -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <!-- javascript -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
