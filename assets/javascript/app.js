@@ -26,6 +26,9 @@ function decrement() {
   if (timer === 0) {
   $result.hide();
   $thanks.show();
+  $question.hide();
+  $score.show();
+  $generate.hide();
   stop();
 
   }
